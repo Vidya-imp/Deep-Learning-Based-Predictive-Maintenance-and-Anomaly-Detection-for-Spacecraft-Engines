@@ -1,0 +1,44 @@
+{
+  "sequence_length": 30,
+  "features_used": [
+    "op_setting_1",
+    "op_setting_2",
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_6",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21"
+  ],
+  "best_model": "BiLSTM",
+  "risk_threshold_rul": 20,
+  "results": [
+    {
+      "Model": "BiLSTM",
+      "RMSE": 23.042143317242513,
+      "MAE": 16.582618713378906,
+      "R2": 0.6925417184829712
+    },
+    {
+      "Model": "CNN_BiGRU",
+      "RMSE": 28.295495592068736,
+      "MAE": 19.998727798461914,
+      "R2": 0.5363662242889404
+    },
+    {
+      "Model": "Transformer_Encoder",
+      "RMSE": 29.50872983912981,
+      "MAE": 23.407428741455078,
+      "R2": 0.49575507640838623
+    }
+  ]
+}
