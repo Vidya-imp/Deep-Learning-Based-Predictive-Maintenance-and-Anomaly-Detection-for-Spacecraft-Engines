@@ -1,0 +1,2 @@
+# Deep-Learning-Based-Predictive-Maintenance-and-Anomaly-Detection-for-Spacecraft-Engines
+Developed an end-to-end predictive maintenance system using NASA C-MAPSS data, processing 21 engine sensor readings and building BiLSTM, CNN-BiGRU, Transformer ensemble models for RUL prediction. Integrated uncertainty estimation, engine risk classification and an interactive Streamlit dashboard for health monitoring and maintenance insights.
